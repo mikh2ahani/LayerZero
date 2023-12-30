@@ -93,6 +93,8 @@ const config: HardhatUserConfig = {
       url: `https://goerli-rollup.arbitrum.io/rpc/`,
       chainId: 421613,
       accounts: accounts(),
+      accounts: accouns(),
+
     },
     'optimism-goerli': {
       url: `https://goerli.optimism.io/`,
